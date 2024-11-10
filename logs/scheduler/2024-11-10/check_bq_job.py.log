@@ -1,0 +1,74 @@
+[2024-11-10T03:09:24.223+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:09:24.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:09:24.229+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:09:24.385+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:09:24.471+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.471+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:check_bq_job
+[2024-11-10T03:09:24.481+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.480+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:check_bq_job
+[2024-11-10T03:09:24.488+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.488+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:check_bq_job
+[2024-11-10T03:09:24.489+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.489+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:24.501+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.501+0000] {dag.py:3111} INFO - Creating ORM DAG for check_bq_job
+[2024-11-10T03:09:24.515+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.514+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:24.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.322 seconds
+[2024-11-10T03:09:54.938+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:09:54.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:09:54.942+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:54.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:09:54.975+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:09:54.992+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:54.992+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:55.011+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:55.011+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:55.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.097 seconds
+[2024-11-10T03:10:25.319+0000] {processor.py:161} INFO - Started process (PID=1095) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:10:25.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:10:25.322+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:25.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:10:25.351+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:10:25.369+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:25.368+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:25.388+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:25.388+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:25.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.103 seconds
+[2024-11-10T03:10:56.068+0000] {processor.py:161} INFO - Started process (PID=1511) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:10:56.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:10:56.071+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:56.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:10:56.092+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:10:56.111+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:56.111+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:56.130+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:56.130+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:56.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.096 seconds
+[2024-11-10T03:11:27.054+0000] {processor.py:161} INFO - Started process (PID=1922) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:11:27.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:11:27.057+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:27.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:11:27.082+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:11:27.100+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:27.099+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:27.117+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:27.116+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:27.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.083 seconds
+[2024-11-10T03:11:57.427+0000] {processor.py:161} INFO - Started process (PID=2333) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:11:57.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:11:57.433+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:57.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:11:57.459+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:11:57.479+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:57.479+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:57.495+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:57.495+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:57.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.088 seconds
+[2024-11-10T03:12:27.875+0000] {processor.py:161} INFO - Started process (PID=2744) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:12:27.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:12:27.877+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:27.877+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:12:27.895+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:12:27.911+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:27.910+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:27.927+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:27.927+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:27.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.075 seconds
+[2024-11-10T03:12:58.507+0000] {processor.py:161} INFO - Started process (PID=3155) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:12:58.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:12:58.510+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:58.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:12:58.538+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:12:58.558+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:58.557+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:58.577+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:58.577+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:58.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.094 seconds
+[2024-11-10T03:13:29.046+0000] {processor.py:161} INFO - Started process (PID=3566) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:13:29.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:13:29.049+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:29.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:13:29.080+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:13:29.100+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:29.100+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:29.120+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:29.119+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:29.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.096 seconds
+[2024-11-10T03:13:59.855+0000] {processor.py:161} INFO - Started process (PID=3975) to work on /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:13:59.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/check_bq_job.py for tasks to queue
+[2024-11-10T03:13:59.860+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:59.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:13:59.889+0000] {processor.py:840} INFO - DAG(s) 'check_bq_job' retrieved from /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:13:59.910+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:59.910+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:59.933+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:59.933+0000] {dag.py:3947} INFO - Setting next_dagrun for check_bq_job to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:59.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/check_bq_job.py took 0.115 seconds

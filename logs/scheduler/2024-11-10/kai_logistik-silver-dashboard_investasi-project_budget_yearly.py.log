@@ -1,0 +1,74 @@
+[2024-11-10T03:09:33.455+0000] {processor.py:161} INFO - Started process (PID=488) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:09:33.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:09:33.461+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:09:33.654+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:09:33.766+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.765+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_investasi-project_budget_yearly
+[2024-11-10T03:09:33.777+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.777+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_investasi-project_budget_yearly
+[2024-11-10T03:09:33.797+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.797+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_investasi-project_budget_yearly
+[2024-11-10T03:09:33.805+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.805+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:33.815+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.815+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_investasi-project_budget_yearly
+[2024-11-10T03:09:33.828+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.828+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:33.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.425 seconds
+[2024-11-10T03:10:04.299+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:10:04.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:10:04.302+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:04.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:10:04.329+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:10:04.352+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:04.352+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:04.373+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:04.373+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:04.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.097 seconds
+[2024-11-10T03:10:34.675+0000] {processor.py:161} INFO - Started process (PID=1308) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:10:34.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:10:34.678+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:34.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:10:34.699+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:10:34.720+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:34.720+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:34.742+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:34.741+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:34.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.094 seconds
+[2024-11-10T03:11:05.575+0000] {processor.py:161} INFO - Started process (PID=1719) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:11:05.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:11:05.579+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:05.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:11:05.621+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:11:05.636+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:05.636+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:05.652+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:05.651+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:05.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.095 seconds
+[2024-11-10T03:11:35.969+0000] {processor.py:161} INFO - Started process (PID=2130) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:11:35.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:11:35.971+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:35.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:11:35.997+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:11:36.019+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:36.018+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:36.036+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:36.036+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:36.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.088 seconds
+[2024-11-10T03:12:06.218+0000] {processor.py:161} INFO - Started process (PID=2541) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:12:06.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:12:06.221+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:06.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:12:06.252+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:12:06.274+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:06.274+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:06.295+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:06.295+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:06.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.100 seconds
+[2024-11-10T03:12:37.039+0000] {processor.py:161} INFO - Started process (PID=2952) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:12:37.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:12:37.042+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:37.042+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:12:37.077+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:12:37.101+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:37.101+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:37.118+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:37.118+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:37.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.107 seconds
+[2024-11-10T03:13:07.965+0000] {processor.py:161} INFO - Started process (PID=3363) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:13:07.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:13:07.968+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:07.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:13:07.991+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:13:08.012+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:08.012+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:08.037+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:08.037+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:08.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.097 seconds
+[2024-11-10T03:13:38.667+0000] {processor.py:161} INFO - Started process (PID=3774) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:13:38.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:13:38.670+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:38.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:13:38.691+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:13:38.713+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:38.713+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:38.731+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:38.731+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:38.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.090 seconds
+[2024-11-10T03:14:10.160+0000] {processor.py:161} INFO - Started process (PID=4187) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:14:10.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py for tasks to queue
+[2024-11-10T03:14:10.164+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:10.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:14:10.197+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_budget_yearly' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:14:10.216+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:10.216+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:10.233+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:10.232+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_budget_yearly to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:10.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py took 0.104 seconds

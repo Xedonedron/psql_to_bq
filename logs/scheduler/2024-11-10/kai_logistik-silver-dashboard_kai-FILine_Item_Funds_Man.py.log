@@ -1,0 +1,74 @@
+[2024-11-10T03:09:27.969+0000] {processor.py:161} INFO - Started process (PID=376) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:09:27.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:09:27.973+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:27.972+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:09:28.024+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:09:28.151+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.150+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_kai-FILine_Item_Funds_Man
+[2024-11-10T03:09:28.162+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.162+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_kai-FILine_Item_Funds_Man
+[2024-11-10T03:09:28.169+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.169+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_kai-FILine_Item_Funds_Man
+[2024-11-10T03:09:28.170+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.170+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:28.179+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.179+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_kai-FILine_Item_Funds_Man
+[2024-11-10T03:09:28.191+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.190+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:28.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.252 seconds
+[2024-11-10T03:09:58.814+0000] {processor.py:161} INFO - Started process (PID=789) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:09:58.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:09:58.817+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:58.817+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:09:58.848+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:09:58.870+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:58.870+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:58.890+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:58.889+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:58.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.097 seconds
+[2024-11-10T03:10:29.509+0000] {processor.py:161} INFO - Started process (PID=1198) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:10:29.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:10:29.514+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:29.513+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:10:29.553+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:10:29.582+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:29.582+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:29.604+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:29.604+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:29.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.121 seconds
+[2024-11-10T03:11:00.312+0000] {processor.py:161} INFO - Started process (PID=1611) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:11:00.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:11:00.315+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:00.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:11:00.350+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:11:00.375+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:00.375+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:00.395+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:00.394+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:00.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.127 seconds
+[2024-11-10T03:11:31.102+0000] {processor.py:161} INFO - Started process (PID=2022) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:11:31.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:11:31.105+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:31.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:11:31.127+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:11:31.149+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:31.149+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:31.171+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:31.171+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:31.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.102 seconds
+[2024-11-10T03:12:01.672+0000] {processor.py:161} INFO - Started process (PID=2433) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:12:01.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:12:01.675+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:01.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:12:01.701+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:12:01.719+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:01.719+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:01.737+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:01.737+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:01.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.088 seconds
+[2024-11-10T03:12:32.074+0000] {processor.py:161} INFO - Started process (PID=2844) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:12:32.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:12:32.078+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:32.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:12:32.103+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:12:32.123+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:32.123+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:32.140+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:32.140+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:32.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.095 seconds
+[2024-11-10T03:13:02.579+0000] {processor.py:161} INFO - Started process (PID=3255) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:13:02.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:13:02.584+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:02.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:13:02.615+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:13:02.640+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:02.640+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:02.659+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:02.659+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:02.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.103 seconds
+[2024-11-10T03:13:33.047+0000] {processor.py:161} INFO - Started process (PID=3666) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:13:33.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:13:33.050+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:33.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:13:33.075+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:13:33.095+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:33.095+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:33.111+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:33.111+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:33.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.086 seconds
+[2024-11-10T03:14:03.968+0000] {processor.py:161} INFO - Started process (PID=4075) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:14:03.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py for tasks to queue
+[2024-11-10T03:14:03.972+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:03.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:14:04.016+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-FILine_Item_Funds_Man' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:14:04.043+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:04.043+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:04.073+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:04.073+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-FILine_Item_Funds_Man to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:04.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py took 0.133 seconds

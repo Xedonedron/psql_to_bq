@@ -1,0 +1,74 @@
+[2024-11-10T03:09:22.448+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:09:22.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:09:22.452+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:22.451+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:09:22.496+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:09:22.604+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:22.604+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_material-rapid_list_vendor_prd
+[2024-11-10T03:09:22.612+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:22.612+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_material-rapid_list_vendor_prd
+[2024-11-10T03:09:22.620+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:22.620+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_material-rapid_list_vendor_prd
+[2024-11-10T03:09:22.621+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:22.621+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:22.630+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:22.630+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_material-rapid_list_vendor_prd
+[2024-11-10T03:09:22.638+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:22.638+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:22.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.216 seconds
+[2024-11-10T03:09:53.626+0000] {processor.py:161} INFO - Started process (PID=642) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:09:53.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:09:53.629+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:53.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:09:53.656+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:09:53.687+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:53.686+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:53.726+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:53.725+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:53.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.131 seconds
+[2024-11-10T03:10:24.074+0000] {processor.py:161} INFO - Started process (PID=1053) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:10:24.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:10:24.077+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:24.077+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:10:24.102+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:10:24.119+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:24.119+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:24.135+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:24.135+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:24.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.081 seconds
+[2024-11-10T03:10:55.126+0000] {processor.py:161} INFO - Started process (PID=1464) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:10:55.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:10:55.130+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:55.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:10:55.161+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:10:55.185+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:55.185+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:55.206+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:55.206+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:55.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.103 seconds
+[2024-11-10T03:11:25.899+0000] {processor.py:161} INFO - Started process (PID=1875) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:11:25.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:11:25.902+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:25.902+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:11:25.922+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:11:25.940+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:25.939+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:25.956+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:25.956+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:25.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.079 seconds
+[2024-11-10T03:11:56.524+0000] {processor.py:161} INFO - Started process (PID=2286) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:11:56.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:11:56.527+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:56.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:11:56.559+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:11:56.580+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:56.579+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:56.594+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:56.594+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:56.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.091 seconds
+[2024-11-10T03:12:26.875+0000] {processor.py:161} INFO - Started process (PID=2697) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:12:26.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:12:26.878+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:26.878+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:12:26.904+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:12:26.922+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:26.922+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:26.938+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:26.938+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:26.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.092 seconds
+[2024-11-10T03:12:57.489+0000] {processor.py:161} INFO - Started process (PID=3108) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:12:57.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:12:57.491+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:57.491+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:12:57.512+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:12:57.540+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:57.539+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:57.566+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:57.566+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:57.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.110 seconds
+[2024-11-10T03:13:28.068+0000] {processor.py:161} INFO - Started process (PID=3519) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:13:28.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:13:28.071+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:28.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:13:28.103+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:13:28.124+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:28.123+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:28.143+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:28.142+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:28.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.100 seconds
+[2024-11-10T03:13:58.601+0000] {processor.py:161} INFO - Started process (PID=3930) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:13:58.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py for tasks to queue
+[2024-11-10T03:13:58.604+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:58.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:13:58.628+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-rapid_list_vendor_prd' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:13:58.654+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:58.653+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:58.673+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:58.673+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-rapid_list_vendor_prd to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:58.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py took 0.101 seconds

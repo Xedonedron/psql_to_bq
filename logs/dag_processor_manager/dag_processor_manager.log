@@ -1,0 +1,971 @@
+[2024-11-10T03:09:18.190+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-11-10T03:09:18.191+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-11-10T03:09:18.193+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-11-10T03:09:18.194+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-11-10T03:09:18.682+0000] {manager.py:740} INFO - There are 81 files in /opt/airflow/dags
+[2024-11-10T03:09:21.288+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/check_bq_job.py                                                                                                               0           0
+/opt/airflow/dags/check_data_types.py                                                                                                           0           0
+/opt/airflow/dags/check_empty_table.py                                                                                                          0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                            192  0.03s             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                            195  0.02s             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       0           0
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         0           0
+================================================================================
+[2024-11-10T03:09:51.465+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.55s           2024-11-10T03:09:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.53s           2024-11-10T03:09:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.52s           2024-11-10T03:09:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.45s           2024-11-10T03:09:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.43s           2024-11-10T03:09:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.42s           2024-11-10T03:09:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.41s           2024-11-10T03:09:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.41s           2024-11-10T03:09:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.38s           2024-11-10T03:09:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.38s           2024-11-10T03:09:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.38s           2024-11-10T03:09:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.37s           2024-11-10T03:09:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.37s           2024-11-10T03:09:27
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.37s           2024-11-10T03:09:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.36s           2024-11-10T03:09:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.36s           2024-11-10T03:09:21
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.36s           2024-11-10T03:09:21
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.36s           2024-11-10T03:09:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.35s           2024-11-10T03:09:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.35s           2024-11-10T03:09:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.35s           2024-11-10T03:09:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.34s           2024-11-10T03:09:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.34s           2024-11-10T03:09:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.34s           2024-11-10T03:09:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.33s           2024-11-10T03:09:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.33s           2024-11-10T03:09:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.33s           2024-11-10T03:09:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.33s           2024-11-10T03:09:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.33s           2024-11-10T03:09:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.33s           2024-11-10T03:09:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.32s           2024-11-10T03:09:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.32s           2024-11-10T03:09:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.32s           2024-11-10T03:09:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.32s           2024-11-10T03:09:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.32s           2024-11-10T03:09:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.32s           2024-11-10T03:09:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.31s           2024-11-10T03:09:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.30s           2024-11-10T03:09:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.30s           2024-11-10T03:09:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.30s           2024-11-10T03:09:23
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.30s           2024-11-10T03:09:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.29s           2024-11-10T03:09:23
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.29s           2024-11-10T03:09:23
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.29s           2024-11-10T03:09:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.29s           2024-11-10T03:09:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.29s           2024-11-10T03:09:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.29s           2024-11-10T03:09:23
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.28s           2024-11-10T03:09:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.28s           2024-11-10T03:09:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.28s           2024-11-10T03:09:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.28s           2024-11-10T03:09:28
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.28s           2024-11-10T03:09:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.28s           2024-11-10T03:09:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.28s           2024-11-10T03:09:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.27s           2024-11-10T03:09:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.27s           2024-11-10T03:09:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.27s           2024-11-10T03:09:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.26s           2024-11-10T03:09:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.26s           2024-11-10T03:09:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.26s           2024-11-10T03:09:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.26s           2024-11-10T03:09:23
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.26s           2024-11-10T03:09:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.26s           2024-11-10T03:09:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.25s           2024-11-10T03:09:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.25s           2024-11-10T03:09:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.25s           2024-11-10T03:09:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.25s           2024-11-10T03:09:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.25s           2024-11-10T03:09:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.25s           2024-11-10T03:09:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.24s           2024-11-10T03:09:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.24s           2024-11-10T03:09:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.24s           2024-11-10T03:09:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.24s           2024-11-10T03:09:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.23s           2024-11-10T03:09:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.23s           2024-11-10T03:09:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.23s           2024-11-10T03:09:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.22s           2024-11-10T03:09:26
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.22s           2024-11-10T03:09:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.22s           2024-11-10T03:09:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.20s           2024-11-10T03:09:21
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.20s           2024-11-10T03:09:22
+================================================================================
+[2024-11-10T03:10:22.018+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.32s           2024-11-10T03:10:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.27s           2024-11-10T03:09:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.26s           2024-11-10T03:09:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.26s           2024-11-10T03:09:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.24s           2024-11-10T03:10:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.20s           2024-11-10T03:09:52
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.20s           2024-11-10T03:09:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.20s           2024-11-10T03:09:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.20s           2024-11-10T03:10:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.19s           2024-11-10T03:10:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.19s           2024-11-10T03:10:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.19s           2024-11-10T03:10:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.18s           2024-11-10T03:10:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.18s           2024-11-10T03:10:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.18s           2024-11-10T03:10:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.18s           2024-11-10T03:09:52
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.18s           2024-11-10T03:09:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.18s           2024-11-10T03:09:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.18s           2024-11-10T03:10:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.17s           2024-11-10T03:09:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.16s           2024-11-10T03:10:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.16s           2024-11-10T03:10:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.16s           2024-11-10T03:10:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.16s           2024-11-10T03:09:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.16s           2024-11-10T03:10:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.16s           2024-11-10T03:10:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.16s           2024-11-10T03:09:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.15s           2024-11-10T03:09:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.15s           2024-11-10T03:09:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.15s           2024-11-10T03:09:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.15s           2024-11-10T03:09:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.15s           2024-11-10T03:10:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.15s           2024-11-10T03:10:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.15s           2024-11-10T03:10:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.15s           2024-11-10T03:10:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.15s           2024-11-10T03:10:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.15s           2024-11-10T03:10:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.15s           2024-11-10T03:09:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.15s           2024-11-10T03:09:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.15s           2024-11-10T03:09:57
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.14s           2024-11-10T03:10:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.14s           2024-11-10T03:10:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.14s           2024-11-10T03:09:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.14s           2024-11-10T03:09:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.14s           2024-11-10T03:09:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.14s           2024-11-10T03:10:00
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.14s           2024-11-10T03:10:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.14s           2024-11-10T03:09:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.14s           2024-11-10T03:09:52
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.14s           2024-11-10T03:10:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.14s           2024-11-10T03:10:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.14s           2024-11-10T03:10:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.13s           2024-11-10T03:09:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.13s           2024-11-10T03:09:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.13s           2024-11-10T03:09:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.13s           2024-11-10T03:10:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.13s           2024-11-10T03:09:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.13s           2024-11-10T03:09:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.13s           2024-11-10T03:09:52
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.13s           2024-11-10T03:10:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.13s           2024-11-10T03:10:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.13s           2024-11-10T03:09:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.13s           2024-11-10T03:09:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.13s           2024-11-10T03:10:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.13s           2024-11-10T03:09:52
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.13s           2024-11-10T03:09:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.13s           2024-11-10T03:09:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.12s           2024-11-10T03:10:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.12s           2024-11-10T03:10:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.12s           2024-11-10T03:09:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.12s           2024-11-10T03:10:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.12s           2024-11-10T03:09:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.12s           2024-11-10T03:09:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.12s           2024-11-10T03:09:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.12s           2024-11-10T03:10:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.12s           2024-11-10T03:09:58
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.12s           2024-11-10T03:09:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.12s           2024-11-10T03:10:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.12s           2024-11-10T03:09:51
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.11s           2024-11-10T03:10:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.10s           2024-11-10T03:10:08
+================================================================================
+[2024-11-10T03:10:52.398+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.41s           2024-11-10T03:10:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.30s           2024-11-10T03:10:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.29s           2024-11-10T03:10:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.27s           2024-11-10T03:10:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.27s           2024-11-10T03:10:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.23s           2024-11-10T03:10:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.23s           2024-11-10T03:10:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.23s           2024-11-10T03:10:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.22s           2024-11-10T03:10:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.22s           2024-11-10T03:10:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.21s           2024-11-10T03:10:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.21s           2024-11-10T03:10:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.21s           2024-11-10T03:10:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.21s           2024-11-10T03:10:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.21s           2024-11-10T03:10:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.20s           2024-11-10T03:10:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.19s           2024-11-10T03:10:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.19s           2024-11-10T03:10:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.19s           2024-11-10T03:10:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.19s           2024-11-10T03:10:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.19s           2024-11-10T03:10:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.19s           2024-11-10T03:10:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.18s           2024-11-10T03:10:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.18s           2024-11-10T03:10:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.18s           2024-11-10T03:10:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.18s           2024-11-10T03:10:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.17s           2024-11-10T03:10:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.17s           2024-11-10T03:10:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.17s           2024-11-10T03:10:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.17s           2024-11-10T03:10:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.17s           2024-11-10T03:10:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.17s           2024-11-10T03:10:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.17s           2024-11-10T03:10:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.17s           2024-11-10T03:10:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.17s           2024-11-10T03:10:35
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.16s           2024-11-10T03:10:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.16s           2024-11-10T03:10:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.16s           2024-11-10T03:10:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.16s           2024-11-10T03:10:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.16s           2024-11-10T03:10:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.16s           2024-11-10T03:10:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.16s           2024-11-10T03:10:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.16s           2024-11-10T03:10:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.15s           2024-11-10T03:10:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.15s           2024-11-10T03:10:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.15s           2024-11-10T03:10:35
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.15s           2024-11-10T03:10:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.15s           2024-11-10T03:10:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.15s           2024-11-10T03:10:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.15s           2024-11-10T03:10:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.15s           2024-11-10T03:10:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.15s           2024-11-10T03:10:22
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.15s           2024-11-10T03:10:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.14s           2024-11-10T03:10:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.14s           2024-11-10T03:10:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.14s           2024-11-10T03:10:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.14s           2024-11-10T03:10:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.14s           2024-11-10T03:10:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.14s           2024-11-10T03:10:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.14s           2024-11-10T03:10:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.14s           2024-11-10T03:10:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.14s           2024-11-10T03:10:23
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.14s           2024-11-10T03:10:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.14s           2024-11-10T03:10:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.14s           2024-11-10T03:10:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.14s           2024-11-10T03:10:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.14s           2024-11-10T03:10:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.13s           2024-11-10T03:10:22
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.13s           2024-11-10T03:10:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.13s           2024-11-10T03:10:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.13s           2024-11-10T03:10:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.13s           2024-11-10T03:10:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.13s           2024-11-10T03:10:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.12s           2024-11-10T03:10:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.12s           2024-11-10T03:10:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.12s           2024-11-10T03:10:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.12s           2024-11-10T03:10:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.12s           2024-11-10T03:10:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.12s           2024-11-10T03:10:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.12s           2024-11-10T03:10:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.11s           2024-11-10T03:10:24
+================================================================================
+[2024-11-10T03:11:23.184+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.22s           2024-11-10T03:11:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.21s           2024-11-10T03:11:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.21s           2024-11-10T03:11:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.21s           2024-11-10T03:11:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.20s           2024-11-10T03:11:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.20s           2024-11-10T03:11:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.18s           2024-11-10T03:11:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.18s           2024-11-10T03:11:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.17s           2024-11-10T03:11:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.17s           2024-11-10T03:11:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.16s           2024-11-10T03:11:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.16s           2024-11-10T03:11:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.16s           2024-11-10T03:11:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.16s           2024-11-10T03:11:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.16s           2024-11-10T03:11:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.15s           2024-11-10T03:11:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.15s           2024-11-10T03:10:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.15s           2024-11-10T03:11:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.15s           2024-11-10T03:11:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.15s           2024-11-10T03:11:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.15s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.15s           2024-11-10T03:11:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.14s           2024-11-10T03:10:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.14s           2024-11-10T03:11:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.14s           2024-11-10T03:10:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.14s           2024-11-10T03:11:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.14s           2024-11-10T03:10:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.14s           2024-11-10T03:11:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.14s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.14s           2024-11-10T03:10:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.14s           2024-11-10T03:11:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.14s           2024-11-10T03:11:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.13s           2024-11-10T03:11:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.13s           2024-11-10T03:11:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.13s           2024-11-10T03:11:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.13s           2024-11-10T03:11:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.13s           2024-11-10T03:10:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.13s           2024-11-10T03:11:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.13s           2024-11-10T03:10:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.13s           2024-11-10T03:11:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.13s           2024-11-10T03:10:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.13s           2024-11-10T03:11:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.13s           2024-11-10T03:10:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.13s           2024-11-10T03:11:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.13s           2024-11-10T03:10:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.13s           2024-11-10T03:11:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.13s           2024-11-10T03:10:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.13s           2024-11-10T03:10:58
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.13s           2024-11-10T03:11:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.13s           2024-11-10T03:11:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.13s           2024-11-10T03:11:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.13s           2024-11-10T03:11:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.12s           2024-11-10T03:11:02
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.12s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.12s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.12s           2024-11-10T03:11:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.12s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.12s           2024-11-10T03:11:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.12s           2024-11-10T03:10:53
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.12s           2024-11-10T03:10:53
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.12s           2024-11-10T03:11:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.12s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.12s           2024-11-10T03:11:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.12s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.12s           2024-11-10T03:10:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.12s           2024-11-10T03:11:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.11s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.11s           2024-11-10T03:10:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.11s           2024-11-10T03:10:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.11s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.11s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.11s           2024-11-10T03:11:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.11s           2024-11-10T03:11:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.11s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.11s           2024-11-10T03:11:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.11s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.11s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.11s           2024-11-10T03:10:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.10s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.10s           2024-11-10T03:10:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.10s           2024-11-10T03:10:55
+================================================================================
+[2024-11-10T03:11:53.440+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.25s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.23s           2024-11-10T03:11:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.21s           2024-11-10T03:11:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.20s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.19s           2024-11-10T03:11:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.19s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.18s           2024-11-10T03:11:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.16s           2024-11-10T03:11:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.16s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.16s           2024-11-10T03:11:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.15s           2024-11-10T03:11:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.15s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.14s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.14s           2024-11-10T03:11:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.14s           2024-11-10T03:11:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.14s           2024-11-10T03:11:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.14s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.14s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.14s           2024-11-10T03:11:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.14s           2024-11-10T03:11:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.14s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.14s           2024-11-10T03:11:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.14s           2024-11-10T03:11:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.14s           2024-11-10T03:11:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.14s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.14s           2024-11-10T03:11:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.13s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.13s           2024-11-10T03:11:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.13s           2024-11-10T03:11:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.13s           2024-11-10T03:11:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.13s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.13s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.13s           2024-11-10T03:11:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.13s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.13s           2024-11-10T03:11:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.13s           2024-11-10T03:11:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.13s           2024-11-10T03:11:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.13s           2024-11-10T03:11:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.12s           2024-11-10T03:11:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.12s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.12s           2024-11-10T03:11:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.12s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.12s           2024-11-10T03:11:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.12s           2024-11-10T03:11:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.12s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.12s           2024-11-10T03:11:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.12s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.12s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.12s           2024-11-10T03:11:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.12s           2024-11-10T03:11:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.12s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.12s           2024-11-10T03:11:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.12s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.11s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.11s           2024-11-10T03:11:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.11s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.11s           2024-11-10T03:11:36
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.11s           2024-11-10T03:11:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.11s           2024-11-10T03:11:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.11s           2024-11-10T03:11:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.11s           2024-11-10T03:11:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.11s           2024-11-10T03:11:25
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.11s           2024-11-10T03:11:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.11s           2024-11-10T03:11:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.11s           2024-11-10T03:11:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.11s           2024-11-10T03:11:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.11s           2024-11-10T03:11:29
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.11s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.11s           2024-11-10T03:11:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.10s           2024-11-10T03:11:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.10s           2024-11-10T03:11:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.10s           2024-11-10T03:11:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.10s           2024-11-10T03:11:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.10s           2024-11-10T03:11:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.10s           2024-11-10T03:11:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.10s           2024-11-10T03:11:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.10s           2024-11-10T03:11:24
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.10s           2024-11-10T03:11:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.10s           2024-11-10T03:11:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.10s           2024-11-10T03:11:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.09s           2024-11-10T03:11:36
+================================================================================
+[2024-11-10T03:12:23.947+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.26s           2024-11-10T03:12:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.22s           2024-11-10T03:12:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.20s           2024-11-10T03:12:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.19s           2024-11-10T03:12:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.19s           2024-11-10T03:12:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.18s           2024-11-10T03:12:12
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.16s           2024-11-10T03:11:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.16s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.16s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.16s           2024-11-10T03:12:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.15s           2024-11-10T03:12:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.15s           2024-11-10T03:12:07
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.15s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.15s           2024-11-10T03:12:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.15s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.15s           2024-11-10T03:12:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.15s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.15s           2024-11-10T03:12:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.15s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.15s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.14s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.14s           2024-11-10T03:12:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.14s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.14s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.14s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.14s           2024-11-10T03:12:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.14s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.14s           2024-11-10T03:12:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.14s           2024-11-10T03:12:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.14s           2024-11-10T03:11:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.13s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.13s           2024-11-10T03:12:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.13s           2024-11-10T03:11:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.13s           2024-11-10T03:12:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.13s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.13s           2024-11-10T03:12:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.13s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.13s           2024-11-10T03:12:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.13s           2024-11-10T03:12:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.13s           2024-11-10T03:12:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.13s           2024-11-10T03:12:03
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.13s           2024-11-10T03:12:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.13s           2024-11-10T03:12:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.12s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.12s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.12s           2024-11-10T03:12:07
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.12s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.12s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.12s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.12s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.12s           2024-11-10T03:11:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.11s           2024-11-10T03:12:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.11s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.11s           2024-11-10T03:11:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.11s           2024-11-10T03:12:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.11s           2024-11-10T03:11:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.11s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.11s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.11s           2024-11-10T03:12:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.11s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.11s           2024-11-10T03:12:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.11s           2024-11-10T03:11:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.11s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.11s           2024-11-10T03:12:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.11s           2024-11-10T03:12:00
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.11s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.11s           2024-11-10T03:12:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.11s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.11s           2024-11-10T03:12:00
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.11s           2024-11-10T03:11:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.11s           2024-11-10T03:11:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.10s           2024-11-10T03:12:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.10s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.10s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.10s           2024-11-10T03:11:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.10s           2024-11-10T03:11:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.10s           2024-11-10T03:11:54
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.10s           2024-11-10T03:11:55
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.10s           2024-11-10T03:12:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.10s           2024-11-10T03:12:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.09s           2024-11-10T03:12:09
+================================================================================
+[2024-11-10T03:12:54.848+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.32s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.31s           2024-11-10T03:12:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.28s           2024-11-10T03:12:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.22s           2024-11-10T03:12:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.20s           2024-11-10T03:12:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.19s           2024-11-10T03:12:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.18s           2024-11-10T03:12:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.18s           2024-11-10T03:12:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.18s           2024-11-10T03:12:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.17s           2024-11-10T03:12:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.17s           2024-11-10T03:12:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.16s           2024-11-10T03:12:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.16s           2024-11-10T03:12:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.16s           2024-11-10T03:12:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.15s           2024-11-10T03:12:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.15s           2024-11-10T03:12:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.15s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.15s           2024-11-10T03:12:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.15s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.15s           2024-11-10T03:12:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.15s           2024-11-10T03:12:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.14s           2024-11-10T03:12:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.14s           2024-11-10T03:12:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.14s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.14s           2024-11-10T03:12:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.14s           2024-11-10T03:12:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.14s           2024-11-10T03:12:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.14s           2024-11-10T03:12:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.14s           2024-11-10T03:12:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.14s           2024-11-10T03:12:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.14s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.14s           2024-11-10T03:12:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.14s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.13s           2024-11-10T03:12:42
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.13s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.13s           2024-11-10T03:12:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.13s           2024-11-10T03:12:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.13s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.13s           2024-11-10T03:12:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.13s           2024-11-10T03:12:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.13s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.13s           2024-11-10T03:12:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.13s           2024-11-10T03:12:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.13s           2024-11-10T03:12:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.13s           2024-11-10T03:12:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.13s           2024-11-10T03:12:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.13s           2024-11-10T03:12:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.13s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.13s           2024-11-10T03:12:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.13s           2024-11-10T03:12:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.13s           2024-11-10T03:12:40
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.13s           2024-11-10T03:12:42
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.13s           2024-11-10T03:12:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.12s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.12s           2024-11-10T03:12:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.12s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.12s           2024-11-10T03:12:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.12s           2024-11-10T03:12:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.12s           2024-11-10T03:12:25
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.12s           2024-11-10T03:12:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.12s           2024-11-10T03:12:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.12s           2024-11-10T03:12:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.12s           2024-11-10T03:12:42
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.12s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.12s           2024-11-10T03:12:30
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.12s           2024-11-10T03:12:42
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.11s           2024-11-10T03:12:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.11s           2024-11-10T03:12:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.11s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.11s           2024-11-10T03:12:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.11s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.11s           2024-11-10T03:12:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.11s           2024-11-10T03:12:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.11s           2024-11-10T03:12:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.10s           2024-11-10T03:12:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.10s           2024-11-10T03:12:42
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.10s           2024-11-10T03:12:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.10s           2024-11-10T03:12:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.10s           2024-11-10T03:12:42
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.10s           2024-11-10T03:12:27
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.09s           2024-11-10T03:12:29
+================================================================================
+[2024-11-10T03:13:25.149+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.57s           2024-11-10T03:13:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.43s           2024-11-10T03:13:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.41s           2024-11-10T03:13:05
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.37s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.35s           2024-11-10T03:13:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.29s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.28s           2024-11-10T03:13:03
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.25s           2024-11-10T03:13:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.24s           2024-11-10T03:13:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.22s           2024-11-10T03:13:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.20s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.19s           2024-11-10T03:13:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.18s           2024-11-10T03:13:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.17s           2024-11-10T03:13:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.17s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.17s           2024-11-10T03:13:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.16s           2024-11-10T03:13:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.16s           2024-11-10T03:12:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.16s           2024-11-10T03:13:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.15s           2024-11-10T03:13:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.15s           2024-11-10T03:13:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.15s           2024-11-10T03:12:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.14s           2024-11-10T03:13:11
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.14s           2024-11-10T03:12:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.14s           2024-11-10T03:12:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.14s           2024-11-10T03:13:13
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.14s           2024-11-10T03:13:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.14s           2024-11-10T03:12:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.14s           2024-11-10T03:13:12
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.14s           2024-11-10T03:13:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.14s           2024-11-10T03:13:01
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.13s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.13s           2024-11-10T03:13:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.13s           2024-11-10T03:13:12
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.13s           2024-11-10T03:13:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.13s           2024-11-10T03:13:12
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.13s           2024-11-10T03:13:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.13s           2024-11-10T03:13:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.13s           2024-11-10T03:12:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.13s           2024-11-10T03:13:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.13s           2024-11-10T03:13:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.13s           2024-11-10T03:13:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.13s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.13s           2024-11-10T03:12:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.13s           2024-11-10T03:13:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.13s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.13s           2024-11-10T03:12:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.13s           2024-11-10T03:13:02
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.12s           2024-11-10T03:13:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.12s           2024-11-10T03:13:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.12s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.12s           2024-11-10T03:13:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.12s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.12s           2024-11-10T03:13:08
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.12s           2024-11-10T03:13:01
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.12s           2024-11-10T03:13:04
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.12s           2024-11-10T03:12:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.12s           2024-11-10T03:13:10
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.12s           2024-11-10T03:13:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.12s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.12s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.12s           2024-11-10T03:13:12
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.12s           2024-11-10T03:13:12
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.12s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.12s           2024-11-10T03:12:56
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.12s           2024-11-10T03:12:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.11s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.11s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.11s           2024-11-10T03:12:59
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.11s           2024-11-10T03:13:12
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.11s           2024-11-10T03:13:06
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.11s           2024-11-10T03:12:57
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.11s           2024-11-10T03:13:09
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.11s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.11s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.11s           2024-11-10T03:12:58
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.11s           2024-11-10T03:13:02
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.11s           2024-11-10T03:13:13
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.10s           2024-11-10T03:13:00
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.10s           2024-11-10T03:13:13
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.10s           2024-11-10T03:13:02
+================================================================================
+[2024-11-10T03:13:55.969+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py                                                           1           0  0.21s           2024-11-10T03:13:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py                                                              1           0  0.19s           2024-11-10T03:13:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py                                                                   1           0  0.19s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py                                                                     1           0  0.19s           2024-11-10T03:13:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py                                                                             1           0  0.19s           2024-11-10T03:13:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py                           1           0  0.18s           2024-11-10T03:13:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py                                                                     1           0  0.17s           2024-11-10T03:13:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py                                                                   1           0  0.17s           2024-11-10T03:13:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py                                                                  1           0  0.16s           2024-11-10T03:13:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py                                                               1           0  0.16s           2024-11-10T03:13:43
+/opt/airflow/dags/check_empty_table.py                                                                                                          1           0  0.16s           2024-11-10T03:13:43
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py                                                                          1           0  0.16s           2024-11-10T03:13:43
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py                                                              1           0  0.15s           2024-11-10T03:13:43
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py                                                                            1           0  0.15s           2024-11-10T03:13:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py                                                                   1           0  0.15s           2024-11-10T03:13:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py                                                                         1           0  0.15s           2024-11-10T03:13:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py                                                             1           0  0.15s           2024-11-10T03:13:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py                                                                   1           0  0.15s           2024-11-10T03:13:43
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py                                                                             1           0  0.14s           2024-11-10T03:13:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py                                                                            1           0  0.14s           2024-11-10T03:13:34
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py                                                                    1           0  0.14s           2024-11-10T03:13:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py                                                                             1           0  0.14s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py                                                                               1           0  0.14s           2024-11-10T03:13:43
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py                                                               1           0  0.14s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py                                                                                1           0  0.14s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py                                                              1           0  0.14s           2024-11-10T03:13:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py                                                                   1           0  0.13s           2024-11-10T03:13:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py                                                                                1           0  0.13s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py                                                                   1           0  0.13s           2024-11-10T03:13:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py                                                                       1           0  0.13s           2024-11-10T03:13:30
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py                                                                   1           0  0.13s           2024-11-10T03:13:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py                                                                               1           0  0.13s           2024-11-10T03:13:42
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py                                                                           1           0  0.13s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py                                                                   1           0  0.13s           2024-11-10T03:13:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py                                                                                1           0  0.13s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py                                                                         1           0  0.13s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py                                                                   1           0  0.12s           2024-11-10T03:13:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py                                                               1           0  0.12s           2024-11-10T03:13:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py                                                                         1           0  0.12s           2024-11-10T03:13:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py                                                                       1           0  0.12s           2024-11-10T03:13:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py                                                                               1           0  0.12s           2024-11-10T03:13:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py                                                                   1           0  0.12s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py                                                                   1           0  0.12s           2024-11-10T03:13:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py                                                                1           0  0.12s           2024-11-10T03:13:41
+/opt/airflow/dags/check_bq_job.py                                                                                                               1           0  0.12s           2024-11-10T03:13:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py                                                         1           0  0.12s           2024-11-10T03:13:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py                                                                         1           0  0.12s           2024-11-10T03:13:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py                                                                   1           0  0.12s           2024-11-10T03:13:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py                                                                    1           0  0.12s           2024-11-10T03:13:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py                                                                     1           0  0.12s           2024-11-10T03:13:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py                                                               1           0  0.12s           2024-11-10T03:13:36
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py                                                             1           0  0.12s           2024-11-10T03:13:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py                                                                   1           0  0.12s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py                                                                   1           0  0.12s           2024-11-10T03:13:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py                                                                    1           0  0.12s           2024-11-10T03:13:33
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py                                                              1           0  0.12s           2024-11-10T03:13:38
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py                                                                            1           0  0.12s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py                                                                       1           0  0.12s           2024-11-10T03:13:31
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py                                                             1           0  0.11s           2024-11-10T03:13:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py                                                                                1           0  0.11s           2024-11-10T03:13:31
+/opt/airflow/dags/check_data_types.py                                                                                                           1           0  0.11s           2024-11-10T03:13:43
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py                                                                1           0  0.11s           2024-11-10T03:13:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py                                                                        1           0  0.11s           2024-11-10T03:13:40
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py                                                                              1           0  0.11s           2024-11-10T03:13:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py                                                          1           0  0.11s           2024-11-10T03:13:39
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py                                                                                1           0  0.11s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py                                                                     1           0  0.11s           2024-11-10T03:13:29
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py                                                                 1           0  0.11s           2024-11-10T03:13:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py                                                                          1           0  0.11s           2024-11-10T03:13:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py                                                               1           0  0.11s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py                                                                     1           0  0.11s           2024-11-10T03:13:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py                                                                     1           0  0.11s           2024-11-10T03:13:41
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py                                                              1           0  0.11s           2024-11-10T03:13:35
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py                                                        1           0  0.11s           2024-11-10T03:13:37
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py                                                                      1           0  0.11s           2024-11-10T03:13:32
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py                                                                                1           0  0.11s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py                                                                               1           0  0.11s           2024-11-10T03:13:43
+/opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py                                                                   1           0  0.10s           2024-11-10T03:13:26
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py                                                                               1           0  0.10s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py                                                                     1           0  0.10s           2024-11-10T03:13:28
+/opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py                                                                              1           0  0.10s           2024-11-10T03:13:28
+================================================================================
+[2024-11-10T03:14:18.254+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-11-10T03:14:20.773+0000] {manager.py:740} INFO - There are 81 files in /opt/airflow/dags
+[2024-11-10T03:14:25.870+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/check_bq_job.py
+[2024-11-10T03:14:25.879+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/check_data_types.py
+[2024-11-10T03:14:25.886+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/check_empty_table.py
+[2024-11-10T03:14:25.890+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cdm_kramasan.py
+[2024-11-10T03:14:25.893+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-cskt.py
+[2024-11-10T03:14:25.896+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_group.py
+[2024-11-10T03:14:25.899+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-desk_material_type.py
+[2024-11-10T03:14:25.902+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-FMFMOAKAP1000016.py
+[2024-11-10T03:14:25.905+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-highlight (format_input_project_milestone)_highlight.csv.py
+[2024-11-10T03:14:25.909+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_corporate.py
+[2024-11-10T03:14:25.912+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-indicator_unit.py
+[2024-11-10T03:14:25.916+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_beta.py
+[2024-11-10T03:14:25.920+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-kas_tasklist_baru_v1.py
+[2024-11-10T03:14:25.922+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-mara.py
+[2024-11-10T03:14:25.926+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:14:25.929+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-pcp0.py
+[2024-11-10T03:14:25.932+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_status.py
+[2024-11-10T03:14:25.934+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline.py
+[2024-11-10T03:14:25.937+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-program_timeline_copy.py
+[2024-11-10T03:14:25.940+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget.py
+[2024-11-10T03:14:25.943+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_budget_yearly.py
+[2024-11-10T03:14:25.946+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa.py
+[2024-11-10T03:14:25.948+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:14:25.952+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_progress.py
+[2024-11-10T03:14:25.955+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_timeline.py
+[2024-11-10T03:14:25.959+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa.py
+[2024-11-10T03:14:25.961+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_causes.py
+[2024-11-10T03:14:25.964+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_configure.py
+[2024-11-10T03:14:25.967+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_existing_controls.py
+[2024-11-10T03:14:25.972+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_impact_categories.py
+[2024-11-10T03:14:25.975+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:14:25.979+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_risk_indicators.py
+[2024-11-10T03:14:25.982+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-reason.py
+[2024-11-10T03:14:25.985+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-taxonomies.py
+[2024-11-10T03:14:25.987+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5.py
+[2024-11-10T03:14:25.991+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:14:25.996+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-test_bulk.py
+[2024-11-10T03:14:26.000+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-total_progress.py
+[2024-11-10T03:14:26.002+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_highlight_sumbagsel.py
+[2024-11-10T03:14:26.005+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_milestone_sumbagsel.py
+[2024-11-10T03:14:26.007+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-t_progress_sumbagsel.py
+[2024-11-10T03:14:26.009+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-users.py
+[2024-11-10T03:14:26.012+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-v_copa_layer2_det.py
+[2024-11-10T03:14:26.015+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZFI0003.py
+[2024-11-10T03:14:26.017+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ZMT0001.py
+[2024-11-10T03:14:26.019+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0001.py
+[2024-11-10T03:14:26.022+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0002.py
+[2024-11-10T03:14:26.024+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0003.py
+[2024-11-10T03:14:26.026+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0004.py
+[2024-11-10T03:14:26.029+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0005.py
+[2024-11-10T03:14:26.031+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_mm0006.py
+[2024-11-10T03:14:26.033+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0003.py
+[2024-11-10T03:14:26.036+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0004.py
+[2024-11-10T03:14:26.039+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0005.py
+[2024-11-10T03:14:26.041+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_dashb_ps0006.py
+[2024-11-10T03:14:26.043+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-ztb_pcp0.py
+[2024-11-10T03:14:26.046+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:14:26.049+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FILine_Item_Funds_Man.py
+[2024-11-10T03:14:26.051+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_kai-FM_Budget_Totals.py
+[2024-11-10T03:14:26.053+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-atpps.py
+[2024-11-10T03:14:26.056+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-gi_order.py
+[2024-11-10T03:14:26.059+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-his_inventory.py
+[2024-11-10T03:14:26.061+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-makt.py
+[2024-11-10T03:14:26.064+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-mara.py
+[2024-11-10T03:14:26.067+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-mard.py
+[2024-11-10T03:14:26.069+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-master_komponen.py
+[2024-11-10T03:14:26.071+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-mbew.py
+[2024-11-10T03:14:26.074+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-migo.py
+[2024-11-10T03:14:26.076+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-mkpf_gi.py
+[2024-11-10T03:14:26.078+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-mseg.py
+[2024-11-10T03:14:26.080+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-m_class.py
+[2024-11-10T03:14:26.082+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-m_sloc.py
+[2024-11-10T03:14:26.085+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-m_slocd_sintel.py
+[2024-11-10T03:14:26.087+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_dev.py
+[2024-11-10T03:14:26.089+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-rapid_list_vendor_prd.py
+[2024-11-10T03:14:26.092+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-trend_inventory.py
+[2024-11-10T03:14:26.094+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0010.py
+[2024-11-10T03:14:26.096+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_dashb_mm0011.py
+[2024-11-10T03:14:26.098+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm05.py
+[2024-11-10T03:14:26.101+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm06_s.py
+[2024-11-10T03:14:26.103+0000] {manager.py:1128} WARNING - Skipping processing of missing file: /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:14:33.275+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-10T03:15:54.397+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-11-10T03:15:54.400+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds

@@ -1,0 +1,74 @@
+[2024-11-10T03:09:33.979+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:09:33.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:09:33.984+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:33.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:09:34.071+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:09:34.170+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:34.170+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_investasi-project_prognosa_forecast
+[2024-11-10T03:09:34.183+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:34.183+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_investasi-project_prognosa_forecast
+[2024-11-10T03:09:34.191+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:34.191+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_investasi-project_prognosa_forecast
+[2024-11-10T03:09:34.192+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:34.192+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:34.206+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:34.206+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_investasi-project_prognosa_forecast
+[2024-11-10T03:09:34.218+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:34.218+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:34.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.279 seconds
+[2024-11-10T03:10:04.713+0000] {processor.py:161} INFO - Started process (PID=909) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:10:04.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:10:04.718+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:04.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:10:04.752+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:10:04.771+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:04.771+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:04.789+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:04.788+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:04.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.102 seconds
+[2024-11-10T03:10:35.195+0000] {processor.py:161} INFO - Started process (PID=1320) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:10:35.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:10:35.199+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:35.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:10:35.241+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:10:35.262+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:35.261+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:35.280+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:35.279+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:35.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.108 seconds
+[2024-11-10T03:11:05.734+0000] {processor.py:161} INFO - Started process (PID=1729) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:11:05.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:11:05.739+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:05.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:11:05.768+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:11:05.795+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:05.795+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:05.817+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:05.817+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:05.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.108 seconds
+[2024-11-10T03:11:36.322+0000] {processor.py:161} INFO - Started process (PID=2142) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:11:36.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:11:36.326+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:36.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:11:36.353+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:11:36.371+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:36.371+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:36.387+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:36.386+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:36.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.086 seconds
+[2024-11-10T03:12:07.447+0000] {processor.py:161} INFO - Started process (PID=2553) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:12:07.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:12:07.450+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:07.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:12:07.480+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:12:07.500+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:07.500+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:07.516+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:07.516+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:07.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.101 seconds
+[2024-11-10T03:12:38.323+0000] {processor.py:161} INFO - Started process (PID=2962) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:12:38.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:12:38.326+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:38.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:12:38.361+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:12:38.381+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:38.380+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:38.399+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:38.399+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:38.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.098 seconds
+[2024-11-10T03:13:09.096+0000] {processor.py:161} INFO - Started process (PID=3373) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:13:09.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:13:09.098+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:09.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:13:09.124+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:13:09.142+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:09.142+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:09.158+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:09.158+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:09.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.084 seconds
+[2024-11-10T03:13:39.752+0000] {processor.py:161} INFO - Started process (PID=3784) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:13:39.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:13:39.755+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:39.755+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:13:39.779+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:13:39.797+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:39.797+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:39.818+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:39.818+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:39.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.085 seconds
+[2024-11-10T03:14:10.356+0000] {processor.py:161} INFO - Started process (PID=4195) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:14:10.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py for tasks to queue
+[2024-11-10T03:14:10.359+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:10.359+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:14:10.384+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-project_prognosa_forecast' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py
+[2024-11-10T03:14:10.406+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:10.405+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:10.425+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:10.425+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-project_prognosa_forecast to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:10.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-project_prognosa_forecast.py took 0.089 seconds

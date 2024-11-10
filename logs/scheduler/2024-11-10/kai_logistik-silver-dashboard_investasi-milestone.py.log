@@ -1,0 +1,74 @@
+[2024-11-10T03:09:37.465+0000] {processor.py:161} INFO - Started process (PID=566) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:09:37.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:09:37.468+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:37.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:09:37.529+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:09:37.641+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:37.641+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_investasi-milestone
+[2024-11-10T03:09:37.651+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:37.651+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_investasi-milestone
+[2024-11-10T03:09:37.660+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:37.660+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_investasi-milestone
+[2024-11-10T03:09:37.661+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:37.661+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:37.671+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:37.671+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_investasi-milestone
+[2024-11-10T03:09:37.680+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:37.680+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:37.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.241 seconds
+[2024-11-10T03:10:08.097+0000] {processor.py:161} INFO - Started process (PID=979) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:10:08.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:10:08.099+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:08.099+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:10:08.115+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:10:08.135+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:08.135+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:08.156+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:08.156+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:08.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.083 seconds
+[2024-11-10T03:10:39.284+0000] {processor.py:161} INFO - Started process (PID=1388) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:10:39.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:10:39.289+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:39.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:10:39.367+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:10:39.390+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:39.389+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:39.408+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:39.408+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:39.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.149 seconds
+[2024-11-10T03:11:09.713+0000] {processor.py:161} INFO - Started process (PID=1799) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:11:09.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:11:09.715+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:09.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:11:09.737+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:11:09.759+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:09.759+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:09.776+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:09.776+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:09.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.085 seconds
+[2024-11-10T03:11:40.658+0000] {processor.py:161} INFO - Started process (PID=2212) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:11:40.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:11:40.661+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:40.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:11:40.690+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:11:40.708+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:40.708+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:40.727+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:40.726+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:40.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.096 seconds
+[2024-11-10T03:12:11.162+0000] {processor.py:161} INFO - Started process (PID=2623) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:12:11.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:12:11.166+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:11.165+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:12:11.205+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:12:11.229+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:11.228+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:11.244+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:11.244+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:11.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.112 seconds
+[2024-11-10T03:12:41.765+0000] {processor.py:161} INFO - Started process (PID=3034) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:12:41.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:12:41.768+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:41.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:12:41.795+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:12:41.818+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:41.818+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:41.837+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:41.836+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:41.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.095 seconds
+[2024-11-10T03:13:12.485+0000] {processor.py:161} INFO - Started process (PID=3445) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:13:12.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:13:12.488+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:12.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:13:12.511+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:13:12.534+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:12.534+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:12.562+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:12.561+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:12.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.111 seconds
+[2024-11-10T03:13:43.035+0000] {processor.py:161} INFO - Started process (PID=3856) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:13:43.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:13:43.037+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:43.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:13:43.072+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:13:43.099+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:43.099+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:43.124+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:43.123+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:43.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.125 seconds
+[2024-11-10T03:14:13.923+0000] {processor.py:161} INFO - Started process (PID=4267) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:14:13.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py for tasks to queue
+[2024-11-10T03:14:13.925+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:13.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:14:13.961+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-milestone' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py
+[2024-11-10T03:14:13.987+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:13.986+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:14.021+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:14.021+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-milestone to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:14.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-milestone.py took 0.132 seconds

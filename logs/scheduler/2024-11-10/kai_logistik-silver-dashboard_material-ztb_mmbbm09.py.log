@@ -1,0 +1,74 @@
+[2024-11-10T03:09:24.622+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:09:24.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:09:24.626+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:09:24.682+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:09:24.773+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.772+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_material-ztb_mmbbm09
+[2024-11-10T03:09:24.783+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.782+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_material-ztb_mmbbm09
+[2024-11-10T03:09:24.789+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.789+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_material-ztb_mmbbm09
+[2024-11-10T03:09:24.790+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.789+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:24.800+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.799+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_material-ztb_mmbbm09
+[2024-11-10T03:09:24.809+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:24.809+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:24.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.211 seconds
+[2024-11-10T03:09:55.194+0000] {processor.py:161} INFO - Started process (PID=694) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:09:55.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:09:55.197+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:55.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:09:55.233+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:09:55.254+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:55.254+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:55.274+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:55.274+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:55.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.107 seconds
+[2024-11-10T03:10:25.587+0000] {processor.py:161} INFO - Started process (PID=1103) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:10:25.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:10:25.591+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:25.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:10:25.628+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:10:25.647+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:25.647+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:25.666+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:25.666+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:25.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.100 seconds
+[2024-11-10T03:10:56.254+0000] {processor.py:161} INFO - Started process (PID=1516) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:10:56.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:10:56.257+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:56.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:10:56.281+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:10:56.302+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:56.302+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:56.321+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:56.321+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:56.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.100 seconds
+[2024-11-10T03:11:27.061+0000] {processor.py:161} INFO - Started process (PID=1925) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:11:27.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:11:27.063+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:27.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:11:27.089+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:11:27.110+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:27.110+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:27.126+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:27.125+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:27.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.085 seconds
+[2024-11-10T03:11:57.448+0000] {processor.py:161} INFO - Started process (PID=2336) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:11:57.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:11:57.451+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:57.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:11:57.481+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:11:57.499+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:57.499+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:57.514+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:57.514+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:57.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.090 seconds
+[2024-11-10T03:12:27.883+0000] {processor.py:161} INFO - Started process (PID=2747) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:12:27.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:12:27.885+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:27.885+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:12:27.904+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:12:27.920+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:27.920+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:27.937+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:27.937+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:27.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.074 seconds
+[2024-11-10T03:12:58.516+0000] {processor.py:161} INFO - Started process (PID=3158) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:12:58.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:12:58.519+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:58.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:12:58.545+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:12:58.564+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:58.563+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:58.580+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:58.580+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:58.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.086 seconds
+[2024-11-10T03:13:29.063+0000] {processor.py:161} INFO - Started process (PID=3569) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:13:29.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:13:29.066+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:29.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:13:29.092+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:13:29.114+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:29.114+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:29.131+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:29.130+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:29.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.092 seconds
+[2024-11-10T03:14:00.044+0000] {processor.py:161} INFO - Started process (PID=3982) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:14:00.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py for tasks to queue
+[2024-11-10T03:14:00.051+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:00.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:14:00.118+0000] {processor.py:840} INFO - DAG(s) 'dashboard_material-ztb_mmbbm09' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py
+[2024-11-10T03:14:00.154+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:00.153+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:00.185+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:00.184+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_material-ztb_mmbbm09 to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:00.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_material-ztb_mmbbm09.py took 0.194 seconds

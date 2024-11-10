@@ -1,0 +1,74 @@
+[2024-11-10T03:09:30.017+0000] {processor.py:161} INFO - Started process (PID=423) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:09:30.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:09:30.021+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:30.021+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:09:30.066+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:09:30.184+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:30.183+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_investasi-template_s_curve_lvl5_beta
+[2024-11-10T03:09:30.195+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:30.194+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_investasi-template_s_curve_lvl5_beta
+[2024-11-10T03:09:30.204+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:30.204+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_investasi-template_s_curve_lvl5_beta
+[2024-11-10T03:09:30.205+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:30.205+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:30.216+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:30.216+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_investasi-template_s_curve_lvl5_beta
+[2024-11-10T03:09:30.230+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:30.230+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:30.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.246 seconds
+[2024-11-10T03:10:00.528+0000] {processor.py:161} INFO - Started process (PID=834) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:10:00.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:10:00.533+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:00.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:10:00.576+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:10:00.605+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:00.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:00.631+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:00.631+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:00.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.131 seconds
+[2024-11-10T03:10:31.444+0000] {processor.py:161} INFO - Started process (PID=1245) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:10:31.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:10:31.450+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:31.449+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:10:31.508+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:10:31.529+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:31.528+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:31.547+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:31.546+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:31.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.135 seconds
+[2024-11-10T03:11:01.735+0000] {processor.py:161} INFO - Started process (PID=1656) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:11:01.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:11:01.738+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:01.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:11:01.774+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:11:01.793+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:01.793+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:01.811+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:01.811+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:01.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.110 seconds
+[2024-11-10T03:11:32.106+0000] {processor.py:161} INFO - Started process (PID=2067) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:11:32.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:11:32.109+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:32.109+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:11:32.146+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:11:32.166+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:32.166+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:32.185+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:32.185+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:32.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.108 seconds
+[2024-11-10T03:12:02.690+0000] {processor.py:161} INFO - Started process (PID=2476) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:12:02.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:12:02.693+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:02.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:12:02.726+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:12:02.745+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:02.745+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:02.763+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:02.763+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:02.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.095 seconds
+[2024-11-10T03:12:33.362+0000] {processor.py:161} INFO - Started process (PID=2887) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:12:33.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:12:33.367+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:33.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:12:33.403+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:12:33.422+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:33.421+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:33.436+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:33.436+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:33.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.097 seconds
+[2024-11-10T03:13:04.765+0000] {processor.py:161} INFO - Started process (PID=3300) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:13:04.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:13:04.769+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:04.769+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:13:04.795+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:13:04.816+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:04.815+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:04.842+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:04.841+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:04.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.100 seconds
+[2024-11-10T03:13:35.262+0000] {processor.py:161} INFO - Started process (PID=3711) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:13:35.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:13:35.266+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:35.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:13:35.296+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:13:35.315+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:35.315+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:35.331+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:35.331+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:35.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.090 seconds
+[2024-11-10T03:14:05.705+0000] {processor.py:161} INFO - Started process (PID=4120) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:14:05.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py for tasks to queue
+[2024-11-10T03:14:05.737+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:05.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:14:05.838+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-template_s_curve_lvl5_beta' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py
+[2024-11-10T03:14:05.864+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:05.863+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:05.891+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:05.891+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-template_s_curve_lvl5_beta to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:05.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-template_s_curve_lvl5_beta.py took 0.224 seconds

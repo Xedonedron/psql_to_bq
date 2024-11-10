@@ -1,0 +1,74 @@
+[2024-11-10T03:09:27.958+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:09:27.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:09:27.962+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:27.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:09:28.010+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:09:28.120+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.119+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_kai-Comitment_Doc_Funds_Management
+[2024-11-10T03:09:28.129+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.129+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_kai-Comitment_Doc_Funds_Management
+[2024-11-10T03:09:28.137+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.136+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_kai-Comitment_Doc_Funds_Management
+[2024-11-10T03:09:28.137+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.137+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:28.150+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.150+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_kai-Comitment_Doc_Funds_Management
+[2024-11-10T03:09:28.164+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:28.164+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:28.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.237 seconds
+[2024-11-10T03:09:58.469+0000] {processor.py:161} INFO - Started process (PID=784) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:09:58.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:09:58.473+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:58.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:09:58.527+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:09:58.551+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:58.551+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:58.568+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:58.568+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:58.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.127 seconds
+[2024-11-10T03:10:29.502+0000] {processor.py:161} INFO - Started process (PID=1195) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:10:29.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:10:29.506+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:29.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:10:29.553+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:10:29.581+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:29.580+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:29.604+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:29.604+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:29.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.126 seconds
+[2024-11-10T03:11:00.151+0000] {processor.py:161} INFO - Started process (PID=1604) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:11:00.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:11:00.153+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:00.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:11:00.182+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:11:00.207+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:00.207+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:00.230+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:00.229+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:00.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.105 seconds
+[2024-11-10T03:11:30.958+0000] {processor.py:161} INFO - Started process (PID=2015) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:11:30.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:11:30.961+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:30.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:11:30.979+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:11:31.002+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:31.002+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:31.020+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:31.020+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:31.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.091 seconds
+[2024-11-10T03:12:01.532+0000] {processor.py:161} INFO - Started process (PID=2426) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:12:01.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:12:01.535+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:01.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:12:01.555+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:12:01.572+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:01.572+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:01.589+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:01.589+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:01.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.086 seconds
+[2024-11-10T03:12:31.790+0000] {processor.py:161} INFO - Started process (PID=2837) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:12:31.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:12:31.792+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:31.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:12:31.824+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:12:31.842+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:31.842+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:31.858+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:31.858+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:31.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.088 seconds
+[2024-11-10T03:13:02.366+0000] {processor.py:161} INFO - Started process (PID=3250) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:13:02.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:13:02.370+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:02.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:13:02.404+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:13:02.426+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:02.426+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:02.443+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:02.442+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:02.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.106 seconds
+[2024-11-10T03:13:32.840+0000] {processor.py:161} INFO - Started process (PID=3659) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:13:32.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:13:32.843+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:32.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:13:32.876+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:13:32.898+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:32.898+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:32.920+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:32.920+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:32.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.106 seconds
+[2024-11-10T03:14:03.961+0000] {processor.py:161} INFO - Started process (PID=4072) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:14:03.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py for tasks to queue
+[2024-11-10T03:14:03.965+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:03.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:14:04.007+0000] {processor.py:840} INFO - DAG(s) 'dashboard_kai-Comitment_Doc_Funds_Management' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py
+[2024-11-10T03:14:04.033+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:04.033+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:04.062+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:04.062+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_kai-Comitment_Doc_Funds_Management to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:04.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_kai-Comitment_Doc_Funds_Management.py took 0.130 seconds

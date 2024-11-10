@@ -1,0 +1,74 @@
+[2024-11-10T03:09:32.549+0000] {processor.py:161} INFO - Started process (PID=473) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:09:32.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:09:32.553+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:32.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:09:32.632+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:09:32.751+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:32.750+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dashboard_investasi-rcsa_performance_indicators
+[2024-11-10T03:09:32.770+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:32.769+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dashboard_investasi-rcsa_performance_indicators
+[2024-11-10T03:09:32.778+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:32.777+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dashboard_investasi-rcsa_performance_indicators
+[2024-11-10T03:09:32.788+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:32.787+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:09:32.804+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:32.803+0000] {dag.py:3111} INFO - Creating ORM DAG for dashboard_investasi-rcsa_performance_indicators
+[2024-11-10T03:09:32.820+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:09:32.820+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:09:32.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.307 seconds
+[2024-11-10T03:10:03.129+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:10:03.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:10:03.133+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:03.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:10:03.168+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:10:03.189+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:03.189+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:03.211+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:03.211+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:03.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.114 seconds
+[2024-11-10T03:10:33.566+0000] {processor.py:161} INFO - Started process (PID=1295) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:10:33.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:10:33.571+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:33.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:10:33.658+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:10:33.681+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:33.680+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:10:33.702+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:10:33.702+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:10:33.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.162 seconds
+[2024-11-10T03:11:04.352+0000] {processor.py:161} INFO - Started process (PID=1706) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:11:04.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:11:04.356+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:04.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:11:04.387+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:11:04.412+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:04.412+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:04.439+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:04.439+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:04.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.121 seconds
+[2024-11-10T03:11:34.648+0000] {processor.py:161} INFO - Started process (PID=2117) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:11:34.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:11:34.650+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:34.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:11:34.675+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:11:34.695+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:34.694+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:11:34.713+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:11:34.713+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:11:34.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.088 seconds
+[2024-11-10T03:12:05.087+0000] {processor.py:161} INFO - Started process (PID=2528) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:12:05.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:12:05.090+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:05.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:12:05.116+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:12:05.136+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:05.136+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:05.154+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:05.154+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:05.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.090 seconds
+[2024-11-10T03:12:35.556+0000] {processor.py:161} INFO - Started process (PID=2939) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:12:35.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:12:35.560+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:35.560+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:12:35.585+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:12:35.606+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:35.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:12:35.623+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:12:35.623+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:12:35.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.091 seconds
+[2024-11-10T03:13:06.809+0000] {processor.py:161} INFO - Started process (PID=3350) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:13:06.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:13:06.812+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:06.812+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:13:06.833+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:13:06.850+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:06.850+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:06.866+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:06.866+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:06.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.080 seconds
+[2024-11-10T03:13:37.312+0000] {processor.py:161} INFO - Started process (PID=3761) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:13:37.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:13:37.315+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:37.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:13:37.335+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:13:37.356+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:37.356+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:13:37.375+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:13:37.375+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:13:37.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.085 seconds
+[2024-11-10T03:14:09.851+0000] {processor.py:161} INFO - Started process (PID=4172) to work on /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:14:09.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py for tasks to queue
+[2024-11-10T03:14:09.854+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:09.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:14:09.885+0000] {processor.py:840} INFO - DAG(s) 'dashboard_investasi-rcsa_performance_indicators' retrieved from /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py
+[2024-11-10T03:14:09.903+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:09.903+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-11-10T03:14:09.922+0000] {logging_mixin.py:188} INFO - [2024-11-10T03:14:09.922+0000] {dag.py:3947} INFO - Setting next_dagrun for dashboard_investasi-rcsa_performance_indicators to 2024-11-09 18:58:00+00:00, run_after=2024-11-09 18:59:00+00:00
+[2024-11-10T03:14:09.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kai_logistik-silver-dashboard_investasi-rcsa_performance_indicators.py took 0.093 seconds

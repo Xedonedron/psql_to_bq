@@ -14,7 +14,7 @@ PROJECT_ID = 'dev-nixon-daniel'
 SCHEMA = 'dashboard_investasi'
 POSTGRES_CONNECTION_ID = 'kai_postgres'
 TABLE = 'kas_tasklist_baru_v1'
-GCS_BUCKET = 'kai_smartsheet'
+GCS_BUCKET = 'kai_sap'
 FILE_NAME = f'{TABLE}.parquet'
 
 with models.DAG(

@@ -15,7 +15,7 @@ SCHEMA = 'dashboard_material'
 POSTGRES_CONNECTION_ID = 'kai_postgres'
 TABLE = 'rapid_list_vendor_prd'
 ALTER_TABLE = "list_vendor_dari_aplikasi_rapid"
-GCS_BUCKET = 'kai_smartsheet'
+GCS_BUCKET = 'kai_sap'
 FILE_NAME = f'{TABLE}.parquet_{{}}'
 
 def push_current_timestamp():
@@ -87,7 +87,7 @@ with models.DAG(
     'dashboard_material-rapid_list_vendor_prd',
     description="Doing incremental load from PostgreSQL to GCS",
     start_date=pendulum.datetime(2024, 9, 30, tz="Asia/Jakarta"),
-    schedule_interval='* 1 * * *',
+    schedule_interval='0 2 * * *',
     max_active_runs=1,
     catchup=False,
     tags=['Gen-AI', 'dashboard_material', 'refined'],

@@ -15,7 +15,7 @@ PROJECT_ID = 'kai-genai-dev'
 SCHEMA = 'public'
 POSTGRES_CONNECTION_ID = 'local_pg'
 TABLE = 'empty_table'
-GCS_BUCKET = 'kai_smartsheet'
+GCS_BUCKET = 'kai_sap'
 FILE_NAME = f'{TABLE}.parquet'
 
 def push_current_timestamp():

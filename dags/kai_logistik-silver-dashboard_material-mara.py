@@ -15,7 +15,7 @@ SCHEMA = 'dashboard_material'
 POSTGRES_CONNECTION_ID = 'kai_postgres'
 TABLE = 'mara'
 ALTER_TABLE = "general_material_data"
-GCS_BUCKET = 'kai_smartsheet'
+GCS_BUCKET = 'kai_sap'
 FILE_NAME = f'{TABLE}.parquet'
 
 def push_current_timestamp():
@@ -281,7 +281,7 @@ with models.DAG(
     'dashboard_material-mara',
     description="Doing incremental load from PostgreSQL to GCS",
     start_date=pendulum.datetime(2024, 9, 30, tz="Asia/Jakarta"),
-    schedule_interval='* 1 * * *',
+    schedule_interval='0 3 * * *',
     max_active_runs=1,
     catchup=False,
     tags=['Gen-AI', 'dashboard_material', 'refined'],
